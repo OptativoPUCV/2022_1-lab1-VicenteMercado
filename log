@@ -163,3 +163,17 @@ exercises.c:49:11: error: implicit declaration of function 'SumaN' [-Werror=impl
 cc1.exe: all warnings being treated as errors
 Compilation failed
 ee679fe
+Sun Mar 13 02:22:02 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:49:17: error: passing argument 1 of 'sumaN' makes pointer from integer without a cast [-Werror=int-conversion]
+    *suma= sumaN(a[UltNum], m);
+                 ^
+exercises.c:22:5: note: expected 'int *' but argument is of type 'int'
+ int sumaN(int a[], int N) {
+     ^~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+cf9091b
