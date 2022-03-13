@@ -335,3 +335,9 @@ exercises.c:147:8: error: unused variable 'i' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 1953b13
+Sun Mar 13 12:20:30 HSP 2022: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  8|1
+total_score: 60/70
+99d50c0
