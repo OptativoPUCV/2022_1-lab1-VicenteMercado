@@ -231,3 +231,16 @@ exercises.c:68:13: note: previous definition of 'nueva' was here
              ^~~~~
 Compilation failed
 4d00359
+Sun Mar 13 02:42:10 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:69:13: error: redefinition of 'nueva'
+    Persona *nueva = (Persona*) malloc(sizeof(Persona));
+             ^~~~~
+exercises.c:68:13: note: previous definition of 'nueva' was here
+    Persona *nueva = NULL;
+             ^~~~~
+Compilation failed
+c401564

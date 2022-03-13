@@ -66,7 +66,7 @@ Persona* crearPersona(char nombre[], char rut[], int edad) {
    int i;
    
    Persona *nueva = NULL;
-   Persona *nueva = (Persona*) malloc(sizeof(Persona*));
+   Persona *nueva = (Persona*) malloc(sizeof(Persona));
 
    for(i=0; i<30; i++){
       nueva->nombre[i] = nombre[i];
