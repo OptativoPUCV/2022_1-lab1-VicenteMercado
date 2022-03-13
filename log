@@ -308,3 +308,13 @@ Sun Mar 13 03:07:54 HSP 2022:
  tests:  6|2
 total_score: 50/70
 830b438
+Sun Mar 13 12:06:24 HSP 2022: 
+ exercises.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaV':
+exercises.c:136:27: error: invalid operands to binary + (have 'int *' and 'int *')
+       (ptr3+i) = (ptr1+i) + (ptr2+i);
+                  ~~~~~~~~ ^ ~~~~~~~~
+Compilation failed
+c264ec7
