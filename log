@@ -152,3 +152,14 @@ exercises.c:49:19: error: expected expression before ']' token
 cc1.exe: all warnings being treated as errors
 Compilation failed
 f52ee6b
+Sun Mar 13 02:21:40 HSP 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:49:11: error: implicit declaration of function 'SumaN' [-Werror=implicit-function-declaration]
+    *suma= SumaN(a[UltNum], m);
+           ^~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+ee679fe
