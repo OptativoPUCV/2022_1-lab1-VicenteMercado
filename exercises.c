@@ -38,18 +38,8 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-   int i;
-   int *ptrN = a;
    
-   int primerN = a[0];
-
-   for(i=0; i<n; i++){
-      *(ptrN+i) = *(ptrN-1-i);
-   }
-
-   a[n-1] = primerN;
-
-   *suma= sumaN(a, m);
+   *suma= sumaN(*(a+m), m);
 }
 
 /*
