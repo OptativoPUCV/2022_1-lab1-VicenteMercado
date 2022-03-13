@@ -133,7 +133,7 @@ void sumaV(Vector * a, Vector * b, Vector * c) {
    int *ptr1 = a->datos, *ptr2 = b->datos, *ptr3 = c->datos;
 
    for(i=0; i< a->capacidad; i++){
-      (ptr3+i) = (ptr1+i) + (ptr2+i);
+      *(ptr3+i) = *(ptr1+i) + *(ptr2+i);
    }
 
 }

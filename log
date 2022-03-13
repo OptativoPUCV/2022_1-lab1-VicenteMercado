@@ -318,3 +318,9 @@ exercises.c:136:27: error: invalid operands to binary + (have 'int *' and 'int *
                   ~~~~~~~~ ^ ~~~~~~~~
 Compilation failed
 c264ec7
+Sun Mar 13 12:07:31 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|2
+total_score: 50/70
+863c962
