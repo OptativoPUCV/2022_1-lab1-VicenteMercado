@@ -188,3 +188,9 @@ exercises.c:42:8: error: unused variable 'UltNum' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 5e1da76
+Sun Mar 13 02:23:33 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|6
+total_score: 10/70
+2ef736a
