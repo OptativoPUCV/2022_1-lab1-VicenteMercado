@@ -244,3 +244,9 @@ exercises.c:68:13: note: previous definition of 'nueva' was here
              ^~~~~
 Compilation failed
 c401564
+Sun Mar 13 02:42:33 HSP 2022: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+e4a68b2
