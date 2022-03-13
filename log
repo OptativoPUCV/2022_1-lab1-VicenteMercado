@@ -218,3 +218,16 @@ Sun Mar 13 02:28:13 HSP 2022:
  tests:  1|6
 total_score: 10/70
 d84d3f3
+Sun Mar 13 02:41:49 HSP 2022: 
+ exercises.c | 17 ++++++++++++++++-
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:69:13: error: redefinition of 'nueva'
+    Persona *nueva = (Persona*) malloc(sizeof(Persona*));
+             ^~~~~
+exercises.c:68:13: note: previous definition of 'nueva' was here
+    Persona *nueva = NULL;
+             ^~~~~
+Compilation failed
+4d00359
