@@ -177,3 +177,14 @@ exercises.c:22:5: note: expected 'int *' but argument is of type 'int'
 cc1.exe: all warnings being treated as errors
 Compilation failed
 cf9091b
+Sun Mar 13 02:23:17 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:42:8: error: unused variable 'UltNum' [-Werror=unused-variable]
+    int UltNum = n-m;
+        ^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+5e1da76
