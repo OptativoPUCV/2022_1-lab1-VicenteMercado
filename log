@@ -121,3 +121,14 @@ Sun Mar 13 01:28:19 HSP 2022:
  tests:  0|7
 total_score: 0/70
 aa05c2e
+Sun Mar 13 01:29:48 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'suma':
+exercises.c:15:6: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c = (a+b);
+      ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+844a530
