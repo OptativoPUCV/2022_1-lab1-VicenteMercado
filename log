@@ -138,3 +138,17 @@ Sun Mar 13 01:30:23 HSP 2022:
  tests:  1|6
 total_score: 10/70
 032dbf3
+Sun Mar 13 02:20:01 HSP 2022: 
+ exercises.c | 7 +++++++
+ 1 file changed, 7 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:49:11: error: implicit declaration of function 'SumaN' [-Werror=implicit-function-declaration]
+    *suma= SumaN(a[], m);
+           ^~~~~
+exercises.c:49:19: error: expected expression before ']' token
+    *suma= SumaN(a[], m);
+                   ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+f52ee6b
